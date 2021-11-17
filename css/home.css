@@ -1,0 +1,165 @@
+﻿.col-back-image-rocket {
+    background-image: url("../wwwroot/images/HTD_RocketShip.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain; /* Resize the background image to cover the entire container */
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 450px;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.parent-block {
+    align-content: center;
+    margin: 50px;
+}
+
+
+/* MEDIA QUERIES::::: typical phone screen resolution */
+@media only screen and (max-width : 667px) {
+    .top-left {
+        font-size: 24px;
+        top: 0px;
+    }
+
+    .because {
+        display: none;
+    }
+
+    .the-hope {
+        text-align: center;
+    }
+
+    .making-a-difference {
+        font-size: 25px;
+    }
+}
+
+/* landscape orientation */
+@media only screen and (min-width : 375px) and (max-width : 667px) and (orientation : landscape) {
+}
+/* portrait orientation */
+@media only screen and (min-width : 375px) and (max-width : 667px) and (orientation : portrait) {
+}
+
+
+
+.making-a-difference {
+    font-family: 'Superscratchy';
+    font-style: normal;
+}
+
+.the-hope {
+    color: darkgrey;
+    font-size: 30px;
+}
+
+.the-dream {
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hope-text {
+    color: black;
+    font-size: 18px;
+}
+
+
+.row-dream {
+    display: flex;
+    flex-direction: row;
+    
+    
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.col-dream {
+    display: flex;
+    flex-direction: column;
+    
+    
+    padding: 10px;
+}
+
+.col-back-image-rocket {
+    background-image: url("../wwwroot/images/HTD_RocketShip.png");
+    background-position: top right;
+    background-repeat: no-repeat;
+    background-size: contain; /* Resize the background image to cover the entire container */
+    display: flex;
+    flex-direction: column;
+    
+    
+    width: 450px;
+}
+
+.hope-text {
+    font-size: small
+}
+
+.sleep-row {
+    display: flex;
+    flex-direction: row;
+    background-color: lightgrey;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain; /* Resize the background image to cover the entire container */
+    
+    
+}
+
+.sleep-container-column {
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.sleep-column {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    
+    
+    text-align: center;
+}
+
+/*FOOTER*/
+.footer-why-sleep-matters {
+    line-height: 70%;
+    font-size: small;
+}
+
+.footer-captions {
+    letter-spacing: .1em;
+}
+
+.footer-captions-small {
+    letter-spacing: .08em;
+    font-size: xx-small;
+    line-height: 250%;
+}
+
+.footer-row {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--siteBlue);
+    justify-content: center;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+}

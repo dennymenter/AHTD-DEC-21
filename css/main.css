@@ -1,0 +1,286 @@
+:root {
+	--siteBlue: rgb(33, 67, 104)
+}
+
+
+.AHTDblueBackground{
+	background-color: var(--siteBlue);
+	padding:0px;
+}
+
+.showborder {
+	border-style: dotted;
+	border-color: red;
+}
+
+
+.nav-menu-extend{
+	color:white;
+	padding-top:10px;
+	padding-left:20px;
+}
+
+
+
+.form-field-extend {
+	/*padding-right:5px;*/
+	font-size: .1rem;
+	padding-top: .5rem;
+}
+
+
+
+
+/* Container holding the image and the text */
+.container {
+	position: relative;
+	text-align: left;
+	color: black;
+}
+
+
+/* Top left text */
+.top-left {
+	position: absolute;
+	top: 40%;
+	left: 5%;
+	color: var(--siteBlue);
+	font-size: 62px;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-family: "cabin-sketch";
+}
+
+
+.middle-left {
+    position: absolute;
+    top: 58px;
+    left: 13px;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: expanded;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.one-night {
+	color: var(--siteBlue);
+	font-size: 24px;
+	font-weight: 200;
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+	
+.because{
+	color: black;
+	font-size: 18px;	
+	font-weight: 100;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif"
+}
+
+
+
+.nav-link {
+	background-color: var(--siteBlue)
+}
+
+
+
+.hope-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.hope-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.hope-column-star {
+	display: flex;
+	flex-direction: column;
+	background-image: url("../images/HTD_Stars-1.png");
+	background-position: top right;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 50px;
+}
+
+.hope-column-star-2 {
+	display: flex;
+	flex-direction: column;
+	background-image: url("../images/HTD_Stars-2.png");
+	background-position: top right;
+	background-repeat: no-repeat;
+	height: 100px;
+	width: 200px;
+}
+
+.header-container {
+	background-image: url("../images/HTD__WhoWeAre_header.jpg");
+	background-repeat: no-repeat;
+	color: white;
+	font-family: 'Superscratchy';
+	font-style: normal;
+	font-size: 6em;
+}
+
+
+/*FAQ styles*/
+.faq-group-header {
+	color: black;
+	background-color: white;
+	font-size: 20px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.faq-panel {
+	font-size: 16px;
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	padding-bottom: 20px;
+}
+
+.faq-extension-header {
+	background-color: white;
+}
+
+.faq-extension-body {
+	background-color: white;
+	color: black;
+	font-size: small;
+	padding-left: 40px;
+}
+.AHTD-white-text {
+	color:white;
+}
+
+
+
+.foundedImage{
+/*	just here for displaying*/
+
+}
+
+
+
+
+
+
+
+/*MEDIA queries <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
+
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-width : 321px) {
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (max-width : 320px) {
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : landscape) {
+
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+	
+}
+
+/* iPad 3 (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (-webkit-min-device-pixel-ratio : 2),
+only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (min-resolution: 192dpi) { 
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	
+}
+
+/* Large screens ----------- */
+@media only screen 
+and (min-width : 1824px) {
+	
+}
+
+/* Retina displays ----------- */
+@media  only screen 
+and (-webkit-min-device-pixel-ratio : 2), 
+only screen 
+and (min-resolution: 192dpi) {
+
+	
+/*MEDIA QUERIES END	>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+	
+}
+.difference {
+	font-family: Superscratchy;
+	color: var(--siteBlue);
+	font-size: 50px;
+}
+
+.banner {
+	
+}
+
+.banner-container-who {
+	
+	background-image: url("../images/HTD__WhoWeAre_header.jpg");
+	height: 200px;
+	text-align: center;
+	font-family: Superscratchy;
+	font-size: 50px;
+	color:white;
+	
+}
