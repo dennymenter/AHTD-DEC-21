@@ -1,0 +1,66 @@
+.donate-col-1 {
+	width: 10%;
+}
+
+.donate-col-2 {
+	width: 10%;
+}
+
+.donate-col-3 {
+	width: 10%;
+}
+
+.donate-col-4 {
+	width: 10%;
+}
+
+.donate-col-5 {
+	width: 10%;
+}
+
+
+.donate-row
+{
+	display: flex;
+	flex-wrap: wrap;
+	background-color: grey;
+	justify-content: center;
+}
+
+.donate-column {
+	display: flex;
+	flex-direction: column;
+}
+
+
+
+.donate-row-down {
+	display: flex;
+	flex-direction: column;
+	justify-content:center;
+}
+
+.thousands {
+	font-size: 12px;
+	width:400px;
+}
+
+.donate-difference {
+	font-size: 36px;
+	width:400px;
+	margin-top:50px;
+}
+
+.donate-amount {
+	background-color: cadetblue;
+	text-align: center;
+	padding:20px;
+	margin:5px;
+}
+
+.donate-contribution-box {
+	display: flex;
+	flex-direction: row;
+	align-content: center;
+	justify-content: center;
+}

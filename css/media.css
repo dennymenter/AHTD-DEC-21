@@ -1,0 +1,31 @@
+/* CSS Document */
+
+
+/*used to hide on smaller screens*/
+.media-hide {
+/* assign this class to thing you want hidden on small screens */
+
+}
+
+
+/*MEDIA queries <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (max-width : 1000px) {
+	
+	.media-hide{
+	border-color:red;
+	border-style:dashed;
+	display:none;
+	}
+	
+	.donate-difference, .thousands {
+		text-align: center;	
+	}
+	
+}
+
+
+/*MEDIA QUERIES END	>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
