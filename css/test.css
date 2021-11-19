@@ -1,0 +1,63 @@
+/* CSS Document */
+
+
+.reword {
+	display:none;
+}
+
+.disappear {
+	text-align: center;;
+}
+
+.tr-text-resize-row {
+	display: flex;
+	flex-direction: row
+}
+
+.tr-text-resize-container {
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
+	font-size: 2em;
+	color: green;
+	
+}
+
+
+
+/*==========================================*/
+
+
+
+
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 1000px) {
+	.tr-text-resize-container {
+		color:yellow;
+		order: 3;
+	}
+	
+	.disappear{
+		text-align: right;		
+		order: 2;
+	}
+	
+	
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+	.tr-text-resize-container {
+		color: red;
+		order: 3;
+	}
+	
+	.disappear{
+		display: none;
+	}
+	
+	.reword{
+		display: inline;
+		text-align: center;
+	}
+
+}
+
