@@ -13,4 +13,14 @@
 	.donate-difference{
 		text-align:center;
 	}
+	
+	.thousands{
+		width 200px;
+		border-style: dashed;
+	}
+	
+	.font-test{
+		font-size: 200%;
+		font-size: 200%;
+	}
 }
