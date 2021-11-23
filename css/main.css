@@ -9,8 +9,10 @@
 }
 
 .showborder {
+/*
 	border-style: dashed;
 	border-width: .5px;
+*/
 	border-style: none;
 }
 
