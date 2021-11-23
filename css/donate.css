@@ -24,12 +24,9 @@
 }
 
 .dollar-box {
- 	padding:5px;
-	border-style:dotted;
 	text-align: center;
-	align-content: center;
-	height:120px;
-	width:120px;
-	background-color:lightgrey;
-	padding-top:25px;
+	height:50px;
+	width:30px;
+	background-color:#F1F1F1;
+	padding:5px;
 }

@@ -1,6 +1,5 @@
 :root {
 	--siteBlue: rgb(33, 67, 104);
-	--borderstyle: groove;
 }
 
 
@@ -10,7 +9,9 @@
 }
 
 .showborder {
-	border-style: var(--borderstyle); 
+	border-style: dashed;
+	border-width: .5px;
+	border-style: none;
 }
 
 
@@ -73,33 +74,42 @@
 
 
 
-.footer-header {
-font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
-	color:white;
-	font-size:20px;
+.footer-header{
+	font-size: .9em;
 }
 
 .footer-subhead {
-font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
 	color:white;
-	font-size: 12px;
-	line-height: 10px;
+	font-size: .7em;
+	line-height: .9em;
 }
 
 .container-footer {
 	background-color: var(--siteBlue);
 	padding-top: 50px;
 	padding-bottom: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+
 }
 
 
 
 .footer-header-small {
-	font-size: 10px;
-	color:white;
+		color:white;
+	font-size: 12px;
 }
 
 .dollar-text {
-	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
-	font-size: 250%;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 2em;
+}
+
+.footer-padding {
+	margin-left:20px;
+	margin-right:20px;
+}
+
+.bottom-nav-link-color {
+	color:white;
 }
