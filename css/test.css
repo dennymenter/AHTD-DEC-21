@@ -1,74 +1,53 @@
 /* CSS Document */
 
-
-.reword {
-	display:none;
-}
-
-.disappear {
-	text-align: center;;
-}
-
-.tr-text-resize-row {
-	display: flex;
-	flex-direction: row
-}
-
-.tr-text-resize-container {
-	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", "sans-serif";
-	font-size: 2em;
-	color: green;
-	
-}
-
-
-
-/*==========================================*/
-
-
-
-
-/* On screens that are 992px wide or less, the background color is blue */
-@media screen and (max-width: 1000px) {
-	.tr-text-resize-container {
-		color:yellow;
-		order: 3;
-	}
-	
-	.disappear{
-		text-align: right;		
-		order: 2;
-	}
-	
-	
-}
-
-/* On screens that are 600px wide or less, the background color is olive */
-@media screen and (max-width: 600px) {
-	.tr-text-resize-container {
-		color: red;
-		order: 3;
-	}
-	
-	.disappear{
-		display: none;
-	}
-	
-	.reword{
-		display: inline;
-		text-align: center;
-	}
-
-}
-
-.test-row {
+.nav-bottom-row {
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
 }
 
-.test-col {
-	background-color: aquamarine;
+.nav-bottom-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: White;
+	background-color: var(--siteBlue);
+	font-size: .8em;
+	line-height: .5em;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.nav-bottom-panel {
 	display: flex;
 	flex-direction: column;
+	margin: 10px;
+}
+
+.nav-break-col-1 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-2 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-3 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-4 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-5 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-6 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-7 {
+/*	will set this width to 100% when we want to break*/
 }
