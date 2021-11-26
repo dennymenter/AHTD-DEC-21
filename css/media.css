@@ -14,10 +14,6 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 		display: none;
 	}
 	
-	.test-break-col {
-		width:100%;
-	}
-	
 	.thousands {
 		text-align: center;
 	}
@@ -29,9 +25,9 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 	.nav-bottom-container {
 		justify-content: flex-start;
 	}
+	
 }
 
-/* On screens that are 450px or less, set the background color to olive */
 @media screen and (max-width: 600px) {
 
 	.nav-break-col-1{

@@ -21,6 +21,13 @@
 	background-image: url("../images/HTD_Stars-1.png");
 	background-position: top right;
 	background-repeat: no-repeat;
+	width: 40px;
+}
+
+.donation-star-img-2 {
+	background-image: url("../images/HTD_Stars-1.png");
+	background-position: top right;
+	background-repeat: no-repeat;
 }
 
 .dollar-box {
@@ -29,4 +36,24 @@
 	width:30px;
 	background-color:#F1F1F1;
 	padding:5px;
+}
+
+.donate-buttons-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.difference-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+
+
+.difference-column {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
 }

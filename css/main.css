@@ -9,7 +9,11 @@
 }
 
 .showborder 
-/*{	border-style: dashed;border-width: .5px; }*/
+{	
+	border-style: dashed;
+	border-width: .5px; 
+	border-width: 0px; 
+}
 
 
 .nav-menu-extend{
