@@ -8,7 +8,8 @@
 	padding:0px;
 }
 
-.showborder {	border-style: dashed;border-width: .5px; }
+.showborder 
+/*{	border-style: dashed;border-width: .5px; }*/
 
 
 .nav-menu-extend{
@@ -128,3 +129,63 @@
 .button3 {background-color: #f44336;} /* Red */ 
 .button4 {background-color: #e7e7e7; color: black;} /* Gray */ 
 .button5 {background-color: #555555;} /* Black */
+
+
+
+
+
+/* CSS Document */
+
+.nav-bottom-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.nav-bottom-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	color: White;
+	background-color: var(--siteBlue);
+	font-size: .8em;
+	line-height: .5em;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	align-content: center;
+	justify-content: center;
+}
+
+.nav-bottom-panel {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+
+.nav-break-col-1 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-2 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-3 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-4 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-5 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-6 {
+/*	will set this width to 100% when we want to break*/
+}
+
+.nav-break-col-7 {
+/*	will set this width to 100% when we want to break*/
+}

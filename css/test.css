@@ -16,6 +16,8 @@
 	line-height: .5em;
 	padding-top: 25px;
 	padding-bottom: 25px;
+	align-content: center;
+	justify-content: center;
 }
 
 .nav-bottom-panel {

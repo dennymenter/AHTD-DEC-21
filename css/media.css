@@ -25,6 +25,10 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 	.donate-difference {
 		text-align: center;
 	}
+	
+	.nav-bottom-container {
+		justify-content: flex-start;
+	}
 }
 
 /* On screens that are 450px or less, set the background color to olive */
