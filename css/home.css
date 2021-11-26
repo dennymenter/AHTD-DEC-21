@@ -1,13 +1,12 @@
 ﻿.col-back-image-rocket {
-    background-image: url("../wwwroot/images/HTD_RocketShip.png");
+    background-image: url("../images/HTD_RocketShip.png");
     background-position: top right;
     background-repeat: no-repeat;
     background-size: contain; /* Resize the background image to cover the entire container */
     display: flex;
     flex-direction: column;
-    
-    
     width: 450px;
+	margin-right: 10%;
 }
 /* The container <div> - needed to position the dropdown content */
 .dropdown {
@@ -36,15 +35,17 @@
     font-size: 30px;
 }
 
-.the-dream {
+.dream-text {
     color: black;
     font-size: 40px;
     font-weight: 800;
+	line-height: 60%;
 }
 
 .hope-text {
     color: black;
     font-size: 18px;
+	margin-top: 10%;
 }
 
 
@@ -65,17 +66,6 @@
     padding: 10px;
 }
 
-.col-back-image-rocket {
-    background-image: url("../wwwroot/images/HTD_RocketShip.png");
-    background-position: top right;
-    background-repeat: no-repeat;
-    background-size: contain; /* Resize the background image to cover the entire container */
-    display: flex;
-    flex-direction: column;
-    
-    
-    width: 450px;
-}
 
 .hope-text {
     font-size: small
@@ -91,23 +81,16 @@
     background-repeat: no-repeat;
     background-size: contain; /* Resize the background image to cover the entire container */
     
-    
 }
 
-.sleep-container-column {
-    display: flex;
-    flex-direction: column;
-    
-    
-}
+
 
 .sleep-column {
     display: flex;
     flex-direction: column;
     padding: 25px;
-    
-    
-    text-align: center;
+	justify-content: center;
+	align-items: center;
 }
 
 /*FOOTER*/
@@ -142,16 +125,18 @@
 .difference-flex-row {
 	display:flex;
 	flex-direction: row;
+	justify-content: center;
 }
 
 .difference-flex-column {
 	display:flex;
 	flex-direction: column;
-	width: 100%;
+	width: 80%;
 	height: 400px;
 	background-image: url("../images/HTD_Website_Home-1_DK.jpg");
 	background-size: contain;
 	background-repeat: no-repeat;
+	background-position: bottom
 	margin-bottom: 0px;
 	
 }
@@ -166,4 +151,47 @@
 	font-size: .7em;
 	margin-left: 50px;
 	margin-right: 70%;
+}
+
+.hope-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+
+.hope-column {
+	display: flex;
+	flex-direction: column;
+	margin-left: 10%;
+}
+
+.hope-to-dream-paragraph {
+	font-size: 10px;
+	margin-right: 200px;
+}
+
+
+
+.sleep-matters-container {
+	display:flex;
+	flex-direction: row;
+	background-image: url("../images/HTD_DottedLine-1.png");
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: contain; /* Resize the background image to cover the entire container */
+	background-color: lightgrey;
+    justify-content: center;
+	flex-wrap: wrap;
+}
+
+.sleep-matters-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap:wrap;
+	justify-content: center;
+}
+.footer-why-sleep-matters-small {
+	font-size: .5em;
+	text-align: center;
 }
