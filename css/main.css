@@ -12,8 +12,20 @@
 {	
 	border-style: dashed;
 	border-width: .5px; 
-/*	border-width: 0px; */
+	border-width: 0px; 
 }
+
+
+
+/*FONTS*/
+.your-style {
+    font-family: 'Nimbus Sans L';
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+
 
 
 .nav-menu-extend{
@@ -155,13 +167,15 @@
 	padding-bottom: 25px;
 	align-content: center;
 	justify-content: center;
-}
+	}
+
 
 .nav-bottom-panel {
 	display: flex;
 	flex-direction: column;
 	margin: 10px;
 }
+
 
 .nav-break-col-1 {
 /*	will set this width to 100% when we want to break*/
@@ -189,4 +203,8 @@
 
 .nav-break-col-7 {
 /*	will set this width to 100% when we want to break*/
+}
+
+.whitelink a {
+  color: white;
 }
