@@ -11,11 +11,12 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 
 	
 	.hide-on-small-size {
-		display: none;
+		display: none !important;
 	}
 	
 	.thousands {
 		text-align: center;
+		font-size: .4em;
 	}
 	
 	.donate-difference {
@@ -29,6 +30,10 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 	.sleep-matters-container {
 	background-image: url("") !important;
 	}
+	
+	.bottom-nav-mobile-pad {
+	}
+
 }
 
 @media screen and (max-width: 600px) {
