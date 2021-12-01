@@ -157,7 +157,7 @@
 .nav-bottom-container {
 	display: flex;
 	flex-direction: row;
-	flex-wrap: wrap;
+	flex-wrap:wrap;
 	color: White;
 	background-color: var(--siteBlue);
 	padding-top: 25px;
