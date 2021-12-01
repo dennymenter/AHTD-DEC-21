@@ -10,7 +10,7 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 
 	
 	.difference-flex-row {
-		height: 275px !important;
+		height: 300px !important;
 	}
 
 	.hope-text {
@@ -55,9 +55,7 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 		margin-top: 5% !important;	
 	}
 	
-	.col-back-image-rocket {
-	    background-image: url("") !important;	
-	}
+
 	
 	
 	.difference-flex-column {
@@ -184,6 +182,22 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 		margin-right: 30% !important;
 	}
 	
+	.col-back-image-rocket {
+    	background-image: url("") !important;
+    }
+	
+	
+/*	bottom nav*/
+	
+	.bottom-nav-header {
+		margin-left: 10px !important;
+	}
+	
+	.bottom-nav-item {
+		margin-left: 10px !important;
+	}
+	
+	
 	.nav-break-col-1{
 		width:100%;
 	}
@@ -205,16 +219,9 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 	
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 365px) {
 
-	.making-a-difference {
-		font-size: 1.5em !important;
-		margin-left:10px !important;
-		margin-top: 15px !important;
-		margin-bottom: 10px !important;
-		line-height: .7 !important;
-	}	
-	
+
 	.one-night {
 		color: var(--siteBlue);
 		padding-left: 10px !important;
@@ -237,6 +244,8 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 		height: 25% !important;
 	}
 	
+	
+
 	.nav-break-col-1{
 		width:100%;
 	}
@@ -278,3 +287,4 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 #small-nav-text {
 	
 }
+

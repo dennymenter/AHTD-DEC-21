@@ -10,10 +10,8 @@
 
 .showborder 
 {	
-/*
 	border-style: dashed !important;
 	border-width: .5px !important; 
-*/
 }
 
 
@@ -57,7 +55,7 @@
 
 
 .foundedImage{
-/*	just here for displaying or hiding*/
+	margin-right: 20px;
 
 }
 
@@ -221,4 +219,10 @@
 .bottom-nav-header {
 	font-size: 1.3em;
 	margin-top: 5px;
+}
+
+
+
+.bottom-nav-item {
+/*used for resizing	*/
 }
