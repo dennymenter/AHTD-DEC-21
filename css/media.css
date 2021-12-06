@@ -95,15 +95,34 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 
 @media screen and (max-width: 768px) {
 	
+/*
 	#main-logo {
 		width: 50% !important;
 		height: 50% !important;
 	}
+*/
+/*
 	
 	.foundedImage {
 		width: 15% !important;
 		height: 15% !important;
 	}
+*/
+	
+	
+.navbar-brand {
+/*
+  padding-top: 0.3125rem;
+  padding-bottom: 0.3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+*/
+	
+	width: 50%;
+	
+}
 
 	
 	.difference-flex-column {
