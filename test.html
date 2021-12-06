@@ -44,6 +44,25 @@
 		background-color: red;
 	}
 	
+	
+	
+	.flex-row {
+		display: flex;
+		flex-direction: row;
+	}
+	
+	.order-first {
+		display:flex;
+		flex-direction: column;
+		order: 1;
+	}
+	
+	.order-second {
+		display:flex;
+		flex-direction: column;
+		order: 0;
+	}
+	
 </style>
 <link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
 <link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
@@ -71,6 +90,18 @@
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap-4.4.1.js"></script>
 
+	
+	
+	
+	EXPERIMENTING WITH ORDER<BR>	
+	
+	<div class="flex-row">
+		<div class="order-first">THIS IS THE FIRST</div>
+		<div class="order-second">THIS IS THE SECOND</div>
+	</div>
+	
+	
+	
 	
 	<hr>
 	BOOTSTRAP ACCORDIAN

@@ -12,6 +12,14 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 	.difference-flex-row {
 		height: 300px !important;
 	}
+	
+	
+	.difference-flex-column {
+	width: 80% !important;
+	height: 300px !important;
+	background-position:right !important;
+	}
+
 
 	.hope-text {
 		margin-top: 0px !important;
@@ -90,45 +98,36 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 		margin-top: 15px;
 	}
 
+	.hide-me-until-small {
+		display:block !important;
+	}
+	
+	
+	#hidden-pic {
+		margin-bottom: 20px;
+	}
+	
+
+	
 }
 
 
 @media screen and (max-width: 768px) {
 	
-/*
-	#main-logo {
-		width: 50% !important;
-		height: 50% !important;
+
+	.navbar-brand {
+		Width: 50%;
 	}
-*/
-/*
-	
-	.foundedImage {
-		width: 15% !important;
-		height: 15% !important;
-	}
-*/
-	
-	
-.navbar-brand {
-/*
-  padding-top: 0.3125rem;
-  padding-bottom: 0.3125rem;
-  margin-right: 1rem;
-  font-size: 1.25rem;
-  line-height: inherit;
-  white-space: nowrap;
-*/
-	
-	width: 50%;
-	
-}
 
 	
+	
 	.difference-flex-column {
-		height: 150px !important;
-		background-position: right
+	width: 80%;
+	height: 300px;
+	background-image: url("../images/HTD_Website_Home-1_MB.jpg") !important;
+	background-position:right !important;
 	}
+
 
 	
 	
@@ -181,10 +180,11 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 	}
 	
 	.difference-flex-column {
-		height: 130px !important;
-		background-position: right;
+		width: 100%;
+		height: 400px;
+		background-image: url("../images/HTD_Website_Home-1_MB.jpg") !important;
+		background-position:right !important;
 	}
-
 	
 	.making-a-difference {
 		font-size: 1.5em !important;
@@ -210,6 +210,9 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
     	background-image: url("") !important;
     }
 	
+	
+	
+
 	
 /*	bottom nav*/
 	
