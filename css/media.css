@@ -79,6 +79,8 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 	.thousands {
 		text-align: center;
 		font-size: .4em;
+		margin-left: 10px;
+		margin-right: 10px;
 	}
 	
 	.donate-difference {
