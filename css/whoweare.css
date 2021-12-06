@@ -27,6 +27,27 @@
 
 
 .about-a-hope {
+	font-family: nimbus-sans, sans-serif;
+	font-weight: 800;
+	font-style: normal;
 	font-size: 2em;
 }
 
+
+.we-believe {
+	font-family: nimbus-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.by-donating {
+	font-family: nimbus-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.participating {
+	font-family: nimbus-sans, sans-serif;
+	font-weight: 800;
+	font-style: normal;
+}

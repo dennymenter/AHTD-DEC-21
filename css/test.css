@@ -20,12 +20,6 @@
 	justify-content: center;
 }
 
-.nav-bottom-panel {
-	display: flex;
-	flex-direction: column;
-	margin: 10px;
-}
-
 .nav-break-col-1 {
 /*	will set this width to 100% when we want to break*/
 }
@@ -52,4 +46,31 @@
 
 .nav-break-col-7 {
 /*	will set this width to 100% when we want to break*/
+}
+
+.font-test-regular {
+	font-family: nimbus-sans, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.masterbackround {
+/*	background-color: green;*/
+}
+
+.FAQ-header {
+/*
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 0;
+    background-color: rgba(0, 0, 0, 0.03);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.125);
+*/
+	padding: 0;
+    margin-bottom: 0;
+    background-color: white;
+    border-bottom: 0px solid;
+}
+
+.FAQ-content {
+	
 }

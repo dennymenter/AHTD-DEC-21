@@ -55,14 +55,14 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 		margin-top: 5% !important;	
 	}
 	
-
-	
-	
 	.difference-flex-column {
 		height: 300px !important;
 	
 	}
 
+	.donate-rocket {
+		display: none !important;
+	}
 	
 	.hide-on-small-size {
 		display: none !important;
@@ -85,8 +85,6 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 	background-image: url("") !important;
 	}
 	
-	.bottom-nav-mobile-pad {
-	}
 	
 	#small-nav-text {
 		margin-top: 15px;
@@ -139,7 +137,14 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 		height:150px !important;
 	}
 	
+
+	
 	/*    DONATE PAGE	*/
+	
+	.nav-bottom-panel {
+		width: 100%;
+	}
+
 	
 }
 
