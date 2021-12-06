@@ -51,3 +51,15 @@
 	font-weight: 800;
 	font-style: normal;
 }
+
+.FAQ-header {
+	padding: 0;
+    margin-bottom: 0;
+    background-color: white;
+    border-bottom: 0px solid;
+}
+
+
+.FAQ-content {
+	
+}
