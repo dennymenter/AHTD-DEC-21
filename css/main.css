@@ -226,3 +226,19 @@
 .bottom-nav-item {
 /*used for resizing	*/
 }
+
+.nav-copyright-row {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	background-color: var(--siteBlue);
+	color:white;
+	font-size: .8em;
+}
+
+.nav-copyright-col {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	font-size: .8em;
+}
