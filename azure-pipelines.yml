@@ -1,0 +1,98 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+name: $(Date:yyyyMMdd)$(Rev:.r)
+
+resources:
+  repositories:
+    - repository: pipeline
+      type: git
+      name: Infra-Cloud/infra-devops-pipelines
+
+stages:
+  - stage: Build
+    displayName: Build aspnet
+    jobs:
+      - job: Build
+        pool:
+          name: "DevOps"
+          demands:
+            - Agent.OS -equals Linux
+        steps:
+         - task: ArchiveFiles@2
+           inputs:
+            rootFolderOrFile: '$(build.sourcesDirectory)'
+            includeRootFolder: false
+         - task: PublishBuildArtifacts@1
+           inputs:
+            PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+            ArtifactName: 'drop'
+            publishLocation: 'Container'
+
+  - stage: Development
+    displayName: Deploy to Development
+    dependsOn: Build
+    jobs:
+    - deployment: Deploy
+      displayName: Deploy Development
+      pool:
+        name: DevOps
+      environment: afi-dev
+      workspace:
+        clean: all
+      strategy:
+        runOnce:
+          deploy:
+            steps:
+
+            - template: deploy/deploy-app-service.yaml@pipeline
+              parameters:
+                AzureSubscription: "AFI DEV"
+                AppName: 'afi-hopetodream-dev-app'
+                AppKind: 'webApp'
+                
+  - stage: Deploy_Stage
+    displayName: Deploy to Stage
+    dependsOn: Development
+    jobs:
+    - deployment: Deploy
+      displayName: Deploy Stage
+      pool:
+        name: DevOps
+      environment: afi-stage
+      workspace:
+        clean: all
+      strategy:
+        runOnce:
+          deploy:
+              steps:
+              - template: deploy/deploy-app-service.yaml@pipeline
+                parameters:
+                  AzureSubscription: "AFI STAGE"
+                  AppName: 'afi-hopetodream-stage-app'
+                  AppKind: 'webApp'
+                  
+  - stage: Deploy_Prod
+    displayName: Deploy to Prod
+    dependsOn: Deploy_Stage
+    jobs:
+    - deployment: Deploy_Prod
+      displayName: Deploy to Prod
+      pool:
+        name: DevOps
+      environment: afi-prod
+      workspace:
+        clean: all
+      strategy:
+        runOnce:
+          deploy:
+              steps:
+              - template: deploy/deploy-app-service.yaml@pipeline
+                parameters:
+                  AzureSubscription: "AFI PROD"
+                  AppName: 'afi-hopetodream-prod-app'
+                  AppKind: 'webApp'
+                  
+
