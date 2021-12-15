@@ -4,6 +4,7 @@
 	flex-direction: row;
 	justify-content: center;
 	padding-top: 10px;
+	flex-wrap: wrap;
 }
 
 .who-col {
@@ -77,7 +78,7 @@
 }
 
 #accordion1 accordian-addon {
-	background-color: red !important;
+	background-color: white !important;
 }
 
 .card-addon {

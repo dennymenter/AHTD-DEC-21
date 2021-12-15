@@ -109,6 +109,40 @@ https://www.w3schools.com/css/css3_mediaqueries_ex.asp
 		margin-top: 10%;
 	}
 	
+	#who-star {
+		order: 1;
+	}
+	
+	#who-about {
+		order: 3;
+		padding-top: 0px;
+		text-align: center;
+	}
+	.participating {
+		text-align: center;
+	}
+		
+	#who-believe {
+		order: 4;
+	}
+	
+	#who-girl-pic {
+		order: 2;
+		width: 100%;
+align-items: center;
+	}
+	
+	.who-col {
+		margin: 10px;	
+	}
+	.who-col-2 {
+		margin: 10px;
+	}
+	
+	.who-col-3 {
+		margin: 10px;
+	}
+	
 	
 	.navbar-brand {
 		Width: 50%;

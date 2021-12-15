@@ -139,3 +139,16 @@
 
 
 
+
+.test-row {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.test-col {
+	display: flex;
+	flex-direction: column;
+	border-color: green;
+	border-style: inset;
+}
