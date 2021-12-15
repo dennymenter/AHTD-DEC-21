@@ -55,13 +55,13 @@
 .FAQ-header {
 	padding: 0;
     margin-bottom: 0;
-    background-color: white;
+    background-color:#D3D3D3;
     border-bottom: 0px solid;
 }
 
 
 .FAQ-content {
-	
+	color:red;
 }
 
 .form-col {
@@ -74,4 +74,12 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: center;
+}
+
+#accordion1 accordian-addon {
+	background-color: red !important;
+}
+
+.card-addon {
+	background-color: red !important;
 }
